@@ -184,3 +184,62 @@ ul {
   gap: 25px;
 
 }
+
+.section-three {
+  background-color: var(--background-section-color);
+  padding-top: 57px;
+  padding-bottom: 81px;
+  /* display: flex; */
+}
+
+.section-three-title {
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+.section-three-text {
+  font-weight: 500;
+  font-size: 1.18;
+  line-height: 19px;
+  color: var(--main-color);
+  margin-bottom: 40px;
+}
+
+.section-three-content {
+  position: relative;
+  width: 479px; 
+}
+
+.section-three-content::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../images/little-spott.png);
+  width: 58px;
+  height: 291px;
+  top: 58px;
+  left: 237px;
+  transform: rotate(128.76deg);
+}
+
+.section-three-container {
+  display: flex;
+  gap: 161px;
+}
+
+.section-three-list {
+  display: flex;
+  gap: 20px;
+}
+
+.section-three-img::after {
+  content: '';
+  background-image: url(../images/srott-two.png);
+  display: block;
+  width: 419px;
+  height: 508px;
+  z-index: 2;
+}
